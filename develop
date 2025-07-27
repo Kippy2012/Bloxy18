@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Develop - Blox 2018</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img src="assets/blox2018_logo.png" class="logo" alt="Blox 2018 Logo">
+  <div class="navbar">
+    <a href="home.html">Home</a>
+    <a href="games.html">Games</a>
+    <a href="catalog.html">Catalog</a>
+    <a href="develop.html">Develop</a>
+    <a href="friends.html">Friends</a>
+    <a href="messages.html">Messages</a>
+    <a href="people.html">People</a>
+    <a href="profile.html">Profile</a>
+  </div>
 
+  <div class="container">
+    <h2>Upload a Creation</h2>
+
+    <form id="uploadGameForm">
+      <h3>Game Upload</h3>
+      <input type="text" placeholder="Game Title" required>
+      <input type="file" required>
+      <button type="submit">Upload Game</button>
+    </form>
+
+    <form id="uploadShirtForm">
+      <h3>Shirt Upload</h3>
+      <input type="text" placeholder="Shirt Name" required>
+      <input type="file" required>
+      <button type="submit">Upload Shirt</button>
+    </form>
+
+    <form id="uploadPantsForm">
+      <h3>Pants Upload</h3>
+      <input type="text" placeholder="Pants Name" required>
+      <input type="file" required>
+      <button type="submit">Upload Pants</button>
+    </form>
+  </div>
+</body>
+</html>
